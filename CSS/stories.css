@@ -11,7 +11,7 @@ main
   align-items: center;
   background-color: #0719A7;
   font-family: sans-serif;
-  background-image: url(../IMG/fondoConfiguracion.jpg);
+  background-image: url("../IMG/fondoConfiguracion.jpg");
   background-repeat: no-repeat;
 }
 img
@@ -50,8 +50,8 @@ a > img{
 }
 @keyframes transicion
 {
-  0% {background-image: url(../IMG/currapali.jpg);}
-  25% {background-image: url(../IMG/howard.jpg);}
-  50% {background-image: url(../IMG/cooper.jpg);}
-  75% {background-image: url(../IMG/leonard.gif);}
+  0% {background-image: url("../IMG/currapali.jpg");}
+  25% {background-image: url("../IMG/howard.jpg");}
+  50% {background-image: url("../IMG/cooper.jpg");}
+  75% {background-image: url("../IMG/leonard.gif");}
 }
