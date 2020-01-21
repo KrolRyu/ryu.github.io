@@ -1,0 +1,212 @@
+body
+{
+  min-height: 100vh;
+  max-width: 100vw;
+  margin: 0px;
+  background-color: #548fe8;
+}
+
+main
+{
+  height: 100vh;
+}
+
+section
+{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header
+{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(58, 62, 68);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo
+{
+  width: 33.33%;
+  height: 100%;
+  background-image: url("../img/logo.jpg");
+  background-size: 20% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.buscar
+{
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+input
+{
+  border-radius: 0.2em;
+  border: none;
+  height: 3%;
+  text-align: center;
+  height: 25px;
+  width: 235px;
+}
+
+input:hover
+{
+  border: 1.5px solid grey
+}
+
+.iconos
+{
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icono1
+{
+  height: 100%;
+  width: 20%;
+  background-image: url("../img/brujula.png");
+  background-size: 30% 40%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.icono2
+{
+  height: 100%;
+  width: 20%;
+  background-image: url("../img/corazon.png");
+  background-size: 30% 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icono3
+{
+  height: 100%;
+  width: 20%;
+  background-image: url("../img/cuenta.png");
+  background-size: 30% 40%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.perfil
+{
+  width: 60%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.fotoPerfil
+{
+  height: 30%;
+  width: 10%;
+  background-image: url("../img/sheldon.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 70%;
+  background-size: 100% auto;
+}
+
+.user
+{
+  height: 100%;
+  width: 43%;
+  margin-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+
+.user span
+{
+  margin: 10px;
+  font-weight: bold;
+}
+
+.imagenes
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+}
+
+.imagen1
+{
+  height: 80%;
+  width: 45%;
+  background-image: url("../img/foto1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  margin: 5px;
+}
+
+.imagen2
+{
+  height: 80%;
+  width: 45%;
+  background-image: url("../img/foto2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  margin: 5px;
+}
+
+.imagen3
+{
+  height: 80%;
+  width: 45%;
+  background-image: url("../img/foto3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  margin: 5px;
+}
+
+.imagen4
+{
+  height: 80%;
+  width: 45%;
+  background-image: url("../img/foto4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  margin: 5px;
+}
+
+.imagen5
+{
+  height: 80%;
+  width: 45%;
+  background-image: url("../img/foto5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  margin: 5px;
+}

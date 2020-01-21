@@ -1,0 +1,71 @@
+body{
+  background-color: #0368ff;
+  font-family: Girassol;
+}
+img[src$=".svg"]{width: 150px;  transition: 1s;
+margin-top: 150px;}
+p{font-size:200%}
+.grid-container {
+  display: grid;
+  grid-template-columns: 80px 481px 581px 80px;
+  grid-template-rows: 80px 549px 80px;
+  text-align: center;
+  justify-content: center;
+  grid-template-areas: "Header Header Header Header" ". main main ." "footer footer footer footer";
+  background-color: transparent;
+}
+a{
+  text-decoration:none;
+  color: black;
+}
+img[src$=".svg"]:hover{
+  width: 200px;
+  transition: 1s;
+}
+.fotoh{width: 50px;
+margin-left: 20px;
+}
+.fotof{width: 90px;
+margin-left: 10px;}
+.barra:hover{
+
+  width: 300px;
+  transition: 1s;
+}
+.barra{
+  margin-left: 400px;
+  margin-right: 700px;
+justify-content: center;
+   text-align: center;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;}
+.main {
+  display: grid;
+  grid-template-columns: 42px 393px 465px 1fr;
+  grid-template-rows: 265px 300px;
+  grid-template-areas: "contenido contenido contenido contenido" "contenido contenido contenido contenido";
+  grid-area: main;
+  text-align: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: 1.4fr 0.2fr 1.4fr;
+  grid-template-rows: 400px 0.9fr;
+  grid-template-areas: "pub1 . pub2" "pub1 . pub2";
+  grid-area: contenido;
+}
+
+.pub1 { grid-area: pub1;
+background: radial-gradient(ellipse at center, rgba(158,197,255,1) 0%, rgba(84,143,232,1) 33%, rgba(46,137,255,1) 47%, rgba(3,104,255,1) 61%, rgba(3,104,255,1) 100%);
+}.pub2 { grid-area: pub2;background: radial-gradient(ellipse at center, rgba(158,197,255,1) 0%, rgba(84,143,232,1) 33%, rgba(46,137,255,1) 47%, rgba(3,104,255,1) 61%, rgba(3,104,255,1) 100%);
+}
+
+.Header { grid-area: Header; background-color: transparent;justify-content: center;text-align: center;
+}
+
+.footer { grid-area: footer;background-color: transparent;justify-content: center;text-align: center;
+}

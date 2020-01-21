@@ -1,0 +1,290 @@
+body{
+  background-color: #0368ff;
+  font-family: Girassol;
+}
+.fotoh{width: 50px;
+margin-left: 20px;
+}
+.fotof{width: 90px;
+margin-left: 10px;}
+.comentar{
+
+  border-radius: 10px;
+}
+img[src$="svg"]{padding: 20px;}
+.herramientas{
+grid-area: herramientas;
+  text-align: left;
+
+}
+
+.usu{
+  border-radius: 20px;
+}
+.mainphoto{
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+
+
+}
+.barra:hover{
+
+  width: 300px;
+  transition: 1s;
+}
+.foto { grid-area: foto;
+  padding-left: 20px;
+    text-align: center;
+  padding-right: 20px;}
+
+.nombre { grid-area: nombre;
+  padding-left: 20px;
+text-align: left;}
+
+
+
+.header { grid-area: header; }
+.barra{
+  margin-left: 400px;
+  margin-right: 700px;
+justify-content: center;
+   text-align: center;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;}
+.grid-container {
+
+  display: grid;
+  grid-template-columns: 1auto 1auto 1auto 1auto 1auto 1auto 1auto;
+   grid-template-rows: 1auto 1auto 200px 100px 10px;
+  grid-template-areas: "Header Header Header Header Header Header Header" ". . publicacion publicacion publicacion . ." ". . publicacion publicacion publicacion . ." ". . publicacion publicacion publicacion . ." "footer footer footer footer footer footer footer";
+
+}
+
+.Header { grid-area: Header;
+
+}
+
+.footer { grid-area: footer; background-color: transparent;
+margin-top: 10px;
+text-align: center;}
+
+.publicacion {
+margin-top: 10px;
+  display: grid;
+  grid-template-columns: 140px 50px 100px 50px;
+  grid-template-rows: 100px 200px 200px 120px;
+  grid-template-areas: "nombre nombre nombre nombre" ". foto foto ." ". foto foto ." "herramientas herramientas herramientas herramientas";
+  grid-area: publicacion;
+  background-color: white;
+  border-radius: 20px;
+background: linear-gradient(135deg, rgba(3,104,255,1) 0%, rgba(37,126,250,1) 29%, rgba(48,138,255,1) 49%, rgba(84,143,232,1) 74%, rgba(158,197,255,1) 100%);  border-style: solid;
+transition: 1s;
+}
+.barra{
+transition: 1s;
+width: 200px;
+}
+.comentarios{
+
+  style:none;
+}
+.nombre { grid-area: nombre;
+  margin-left: 100px;
+}
+
+.foto { grid-area: foto; }
+
+.herramientas { grid-area: herramientas;
+  margin-left: 100px;
+}
+
+
+
+
+
+@media (max-width: 1100px) {
+  body{
+    background-color: #0368ff;
+
+  }
+  img[src$=".png"]{width: 90px;
+  margin-left: 100px;}
+  .comentar{
+
+    border-radius: 10px;
+  }
+  .barra:hover{
+
+    width: 400px;
+    transition: 1s;
+  }
+  img[src$="corazon.svg"]{margin-left: 2px;}
+  img[src$="comentario.svg"]{margin-left: 2px;}
+  img[src$="avion.svg"]{margin-left: -20px;}
+  .herramientas{
+  grid-area: herramientas;
+    text-align: left;
+
+  }
+  .usu{
+    border-radius: 20px;
+  }
+  .barra{
+    margin-left: 100px;
+  justify-content: center;
+     text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+  transition: 1s;}
+  .mainphoto{
+    border-radius: 20px;
+    width: 300px;
+margin-left: -60px;
+border-width: 1px;
+border-style: solid;
+  }
+  .foto { grid-area: foto;
+    padding-left: 20px;
+      text-align: center;
+    padding-right: 20px;}
+
+  .nombre { grid-area: nombre;
+    padding-left: 20px;
+  text-align: left;}
+
+  .footer { grid-area: footer;
+  background-color: transparent;
+margin-top: 20px;}
+
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 80px 20px 125px 125px 180px 0px 80px;
+     grid-template-rows: 20px 200px 230px 100px 0px;
+    grid-template-areas: "Header Header Header Header Header Header Header" ". . publicacion publicacion publicacion . ." ". . publicacion publicacion publicacion . ." ". . publicacion publicacion publicacion . ." "footer footer footer footer footer footer footer";
+
+  }
+
+  .Header { grid-area: Header;width: 900px;
+  }
+
+  .footer { grid-area: footer; }
+
+  .publicacion {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 90px 150px 150px 100px;
+    grid-template-areas: "nombre nombre nombre nombre" ". foto foto ." ". foto foto ." "herramientas herramientas herramientas herramientas";
+    grid-area: publicacion;
+  background: linear-gradient(135deg, rgba(3,104,255,1) 0%, rgba(37,126,250,1) 29%, rgba(48,138,255,1) 49%, rgba(84,143,232,1) 74%, rgba(158,197,255,1) 100%);
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    transition: 3s;
+  }
+
+  .nombre { grid-area: nombre; }
+
+  .foto { grid-area: foto; }
+
+  .herramientas { grid-area: herramientas;
+    margin-left: 50px;
+  margin-top: 20px;}
+
+
+}
+
+
+@media (max-width: 600px) {
+  body{
+    background-color: #0368ff;
+  justify-content: center;
+  text-align: center;
+  }
+  .barra:hover{
+
+    width: 240px;
+    transition: 1s;
+  }
+  .comentar:hover{
+
+    width: 240px;
+    transition: 1s;
+  }
+  .comentar{
+    width: 200px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  img[src$="corazon.svg"]{margin-left: 2px;}
+  img[src$="comentario.svg"]{margin-left: 2px;}
+  img[src$="avion.svg"]{margin-left: -20px;}
+  .herramientas{
+  grid-area: herramientas;
+    text-align: left;
+
+  }
+
+  .Header{margin-bottom: 20px;
+    text-align: left;
+
+  }
+  .usu{
+    border-radius: 20px;
+  }
+  .mainphoto{
+    border-radius: 20px;
+    width: 300px;
+    margin-left: -40px;border-width: 1px;
+    border-style: solid;
+  }
+  .foto { grid-area: foto;
+  }
+
+  .nombre { grid-area: nombre;
+margin-left: -9px;
+  text-align: left;}
+
+
+
+  .header { grid-area: header; }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 20px 20px 125px 125px 145px 0px 20px;
+     grid-template-rows: 100px 200px 250px 0px 10px;
+    grid-template-areas:  ". . publicacion publicacion publicacion . ." ". . publicacion publicacion publicacion . ." ". . publicacion publicacion publicacion . ." ;
+transition: 1s;
+  }
+
+  .footer { grid-area: footer;  background-color: transparent;
+ }
+ img[src$=".png"]{width: 90px;
+ margin-left: 10px;
+margin-top: 10px;}
+
+  .publicacion {
+    display: grid;
+    grid-template-columns: 70px 10px 150px 100px;
+    grid-template-rows: 80px 100px 220px 100px;
+    grid-template-areas: "nombre nombre nombre nombre" ". foto foto ." ". foto foto ." "herramientas herramientas herramientas herramientas";
+    grid-area: publicacion;
+    background: linear-gradient(135deg, rgba(3,104,255,1) 0%, rgba(37,126,250,1) 29%, rgba(48,138,255,1) 49%, rgba(84,143,232,1) 74%, rgba(158,197,255,1) 100%);
+    border-radius: 20px;
+    border-width: 1px;
+    transition: 1s;
+  }
+
+  .nombre { grid-area: nombre; }
+
+  .foto { grid-area: foto; }
+
+  .herramientas { grid-area: herramientas;
+  margin-left: 26px;}
+
+
+}

@@ -1,0 +1,171 @@
+body
+{
+  min-height: 100vh;
+  max-width: 100vw;
+  margin: 0px;
+  background-color: #548fe8;
+}
+
+main
+{
+  height: 100vh;
+}
+
+section
+{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header
+{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(58, 62, 68);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo
+{
+  width: 33.33%;
+  height: 100%;
+  background-image: url("../img/logo.jpg");
+  background-size: 20% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.buscar
+{
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+input
+{
+  border-radius: 0.2em;
+  border: none;
+  height: 3%;
+  text-align: center;
+  height: 25px;
+  width: 235px;
+}
+
+input:hover
+{
+  border: 1.5px solid grey
+}
+
+.iconos
+{
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icono1
+{
+  height: 100%;
+  width: 20%;
+  background-image: url("../img/brujula.png");
+  background-size: 30% 40%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.icono2
+{
+  height: 100%;
+  width: 20%;
+  background-image: url("../img/corazon.png");
+  background-size: 30% 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icono3
+{
+  height: 100%;
+  width: 20%;
+  background-image: url("../img/cuenta.png");
+  background-size: 30% 40%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.usuarios
+{
+  width: 60%;
+  /*height: 100%;*/
+  background-color: #0368ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px;
+}
+
+nav
+{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-right: 1px solid white;
+}
+
+nav span
+{
+  padding: 20px;
+  color: white;
+}
+
+nav span:last-child
+{
+  background-color: rgba(66, 66, 75, 0.57);
+  border-left: 1px solid white;
+}
+
+nav span:hover
+{
+  background-color: rgb(66, 66, 75);
+  border-left: 1px solid white;
+}
+
+.chat
+{
+  width: 75%;
+  height: 100%;
+  margin: 20px;
+}
+
+.mensajes span
+{
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 1.5em;
+  background-color: rgb(82, 189, 98);
+}
+
+.respuestas span
+{
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 1.5em;
+  background-color: rgb(255, 255, 255);
+  float: right;
+}

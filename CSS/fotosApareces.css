@@ -1,0 +1,147 @@
+body {
+  background-image: url(img/fondoConfiguracion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #548fe8;
+  margin: 0;
+
+}
+.barraSuperior img {
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+}
+.logo img {
+  width: 7vh;
+  height: 7vh;
+}
+.barraSuperior {
+  display: flex;
+  flex-direction: row;
+  height: 8vh;
+  width: auto;
+  background-color: rgba(58, 62, 68);
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  height: 8vh;
+  width: 33vw;
+  margin-left: 70px;
+}
+.Buscador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34vw;
+  height: 8vh;
+}
+.Barra {
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  border-radius: 7px 7px;
+}
+.iconos {
+  height: 8vh;
+  width: 33vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 200px;
+}
+.caja {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  font-family: 'Girassol', cursive;
+}
+.galeria {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 750px;
+  background-color: black;
+  opacity: 1;
+}
+
+h1 {
+  color: white;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.cajaGaleria img {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 1px double #548fe8;
+  margin: 15px;
+  transition: transform 1s;
+  opacity: 1;
+}
+.cajaGaleria img:hover {
+  box-shadow: 8px 8px 8px 2px rgba(216,193,193,0.5);
+  transform: scale(1.1)rotate(3deg);
+}
+.cajaGaleria {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 600px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+
+}
+.barraInferior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+}
+.iconos2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 44vw;
+  height: 8vh;
+}
+.barraInferior img {
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+}
+.nombrePagina {
+  height: 8vh;
+  width: 33vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: #548fe8;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0368ff;
+}

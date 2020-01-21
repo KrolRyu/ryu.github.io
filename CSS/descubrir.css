@@ -1,0 +1,112 @@
+body 
+{
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	font-family: sans-serif;
+	background-image: url("img_descubrir/espacio_descubrir.jpg");
+	background-repeat: no-repeat;
+}
+
+.buscador 
+{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 20px;
+}
+
+input 
+{
+	width: 25vw;
+	height: 3vh;
+	text-align: center;
+	-webkit-border-radius: 400px;
+	-moz-border-radius: 400px;
+	border-radius: 400px;
+	outline: none;
+	font-style: bold;
+	font-size: 20px;
+	border-color: #0368FF;
+}
+input:focus
+{
+	width: 28vw;
+	background-color: #5C54CE;
+	transition: 1s;
+}
+button 
+{
+	-webkit-border-radius: 400px;
+	-moz-border-radius: 400px;
+	border-radius: 400px;
+	outline: none;
+	margin-top: 10px;
+	font-style: bold;
+	font-size: 20px;
+	border-color: #4CEF51;
+}
+button:hover
+{
+	cursor: pointer;
+	background-color: lightblue;
+}
+.fotos 
+{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+.contenedor1 
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor2 
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contenedor3 
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.imagen 
+{
+	width: 14vw;
+	height: 23vh;
+	background-color:white;
+    padding:10px 10px 10px 10px;
+    border:1px solid #BFBFBF;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+    margin-left: 10px;
+}
+img:hover 
+{
+	animation-name: agrandarimg;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	cursor: pointer;
+}
+@keyframes agrandarimg
+{
+	0% {height:25vh;}
+	0% {width:15vw;}
+	100% {height:30vh;}   
+	100% {width:20vw;}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+body
+{
+  margin: 0 auto;
+}
+main
+{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0719A7;
+  font-family: sans-serif;
+  background-image: url(dark.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+img
+{
+  height: 25vh;
+  width: 15vw;
+  border-radius: 30px 30px 30px 30px;
+}
+div.foto {
+	text-align: center;
+	padding: 10px;
+	width: 200px;
+  margin-bottom: 25px;
+}
+a{
+  margin: 5px;
+  text-align: center;
+  border-style: solid;
+  border-color: #0368FF;
+  padding: 15px 10px;
+  color: white;
+  background-color: #191919;
+}
